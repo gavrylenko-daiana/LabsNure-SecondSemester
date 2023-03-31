@@ -18,7 +18,7 @@ namespace firstLab
             MyTask task = new MyTask();
 
             footballManager.CreateFootballTeams(teamOfContenders);
-            
+
             task.MatchesWithMaxGoalDifference(teamOfContenders);
             task.TotalNumberOfPointsScored(teamOfContenders);
             task.LostMatches(teamOfContenders);
